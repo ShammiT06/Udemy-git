@@ -122,6 +122,6 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.topics__container:hover{
+.topics__container p:hover {
     background-color: grey;
 }
