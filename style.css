@@ -159,6 +159,7 @@ body{
     border: soild #A435F0 2px;
 }
 .topics__container p:hover{
+    transition: 1s;
     background-color: grey;
     border: solid black 2px;
     cursor: pointer;
