@@ -157,7 +157,8 @@ body{
     margin-top: 10px;
 }
 .course-card__p{
-    width: 260px;
+    flex-grow: 1;
+    flex-basis: 20%;
 }
 .course-card__p img{
     width: 100%;
