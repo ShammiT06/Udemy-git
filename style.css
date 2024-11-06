@@ -12,6 +12,10 @@ body{
     gap: 20px;
     border-bottom: solid black 1px;
     align-items: center;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: white;
 }
 .navbar__1__title{
     color: #5022C3;
@@ -28,6 +32,7 @@ body{
 .navbar__2 input{
     border: none;
     font-size: 16px;
+    background-color: transparent;
     width: 100%;
 }
 .navbar__2 input:focus{
@@ -38,6 +43,24 @@ body{
     display:flex;
     gap: 10px;
     align-items: center;
+}
+.my_learning{
+    position: relative;
+    cursor: pointer;
+}
+.my_learning__popup{
+    background-color: white;
+    border: solid black 1px;
+    position: absolute;
+    width: 100px;
+    top: 150%;
+    right: 0%;
+    padding: 20px;
+    display: none;
+    
+}
+.my_learning:hover .my_learning__popup{
+    display: block;
 }
 .categories{
     display: flex;
